@@ -60,6 +60,9 @@ tst <- function() {
   ##the global environment.
   assign("returnall", returnall, envir = .GlobalEnv)
   assign("returnavg", returnavg, envir = .GlobalEnv)
+  
+  ##This outputs the data from step 5 into a text file in the directory
+  write.table(returnavg, file = "./AssignmentStep5output.txt", row.names = FALSE)
 
 }
 
