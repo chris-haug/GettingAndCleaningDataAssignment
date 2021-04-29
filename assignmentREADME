@@ -1,0 +1,20 @@
+The function "run_analysis" produces two tidy data sets based on the raw data collected from accelerometers in Samsung Galaxy S smartphones 
+across 30 subjects and 6 different types of activities.
+
+The function will assign the two datasets to the global environment to be used for further processing. The two datasets are as follows:
+
+-returnall - This returns the subject, activity description, mean, and standard deviation for both the train and test data sets from the raw
+             data. The data is for each measurement in the base data set
+-returnavg - This returns the average value for mean and standard deviation measurements grouped by subject and activity.
+
+The below are prerequisites for this function:
+
+(1) The function uses the dplyr package. Loading the dplyr library is part of the attached file
+(2) The dataset will be loaded in a "data" sub-folder from the working directory.
+
+The raw data files can be found at the below url:
+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+
+The source of this data is at the below url:
+
+ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
